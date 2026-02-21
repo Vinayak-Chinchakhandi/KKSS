@@ -33,18 +33,9 @@ kkss-website/
 │   ├── pages/
 │   │   ├── Home.jsx
 │   │   ├── Contact.jsx
+│   │   ├── Services.jsx
 │   │   └── services/
-│   │       ├── Wedding.jsx
-│   │       ├── Shamiyana.jsx
-│   │       ├── SoundSystem.jsx
-│   │       ├── BabyShower.jsx
-│   │       ├── BirthdayAnniversary.jsx
-│   │       ├── CarDecoration.jsx
-│   │       ├── Catering.jsx
-│   │       ├── Gathering.jsx
-│   │       ├── Haladi.jsx
-│   │       ├── HomeOpening.jsx
-│   │       └── Political.jsx
+│   │       └──ServiceDetails.jsx
 │   │
 │   ├── styles/
 │   │   ├── global.css

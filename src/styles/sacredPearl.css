@@ -1,0 +1,113 @@
+:root {
+  --bg-main: #FDFEFE;
+  --bg-section: #F7F9FB;
+  --bg-highlight: #F3E4C9;
+
+  --accent-gold: #E6C98E;
+  --accent-gold-deep: #C5A75D;
+  --accent-rose: #D8A7B1;
+
+  --text-primary: #2B2B2B;
+  --text-secondary: #6E6E6E;
+
+  --border-light: #ECECEC;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+/* ===== TEXT SECONDARY ===== */
+.text-muted {
+  color: var(--text-secondary);
+}
+
+/* ===== BACKGROUND UTILITY ===== */
+.bg-section {
+  background: var(--bg-section);
+}
+
+.bg-highlight {
+  background: var(--bg-highlight);
+}
+
+/* ===== BASE BUTTON ===== */
+.btn {
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* ===== PRIMARY BUTTON ===== */
+.btn-primary {
+  background: var(--accent-gold);
+  color: var(--text-primary);
+}
+
+.btn-primary:hover {
+  background: var(--accent-gold-deep);
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== SECONDARY BUTTON ===== */
+.btn-secondary {
+  background: var(--accent-rose);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #C28795;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== OUTLINE BUTTON ===== */
+.btn-outline {
+  border: 2px solid var(--accent-gold);
+  color: var(--text-primary);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: var(--accent-gold);
+}
+
+/* ===== CARD ===== */
+.card {
+  background: white;
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--accent-gold);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* ===== INPUT ===== */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 0 3px rgba(230, 201, 142, 0.2);
+}
