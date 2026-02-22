@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
-import ScrollToTop from "./components/layout/ScrollToTop";
+import ScrollToTop from "./components/layout/ScrolltoTop";
 
 import Home from "./pages/Home";
 import ServiceDetails from "./pages/services/ServiceDetails";
