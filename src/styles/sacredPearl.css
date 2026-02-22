@@ -72,11 +72,16 @@ h1, h2, h3, h4 {
 .btn-outline {
   border: 2px solid var(--accent-gold);
   color: var(--text-primary);
-  background: transparent;
+  background: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .btn-outline:hover {
   background: var(--accent-gold);
+  color: white;
 }
 
 /* ===== CARD ===== */

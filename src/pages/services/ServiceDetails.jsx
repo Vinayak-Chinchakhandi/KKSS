@@ -13,14 +13,22 @@ function ServiceDetails() {
     .join(" ");
 
   return (
-    <section className="section">
+    <section className="section service-details">
       <div className="container">
 
         {/* Back Button */}
         <div style={{ marginBottom: "30px" }}>
           <Button
             variant="outline"
-            onClick={() => navigate("/services")}
+            onClick={() => {
+              navigate("/");
+              setTimeout(() => {
+                const section = document.getElementById("services");
+                if (section) {
+                  section.scrollIntoView({ behavior: "smooth" });
+                }
+              }, 100);
+            }}
           >
             ← Back to Services
           </Button>

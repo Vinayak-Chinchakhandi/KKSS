@@ -20,9 +20,9 @@ function Footer() {
         <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/services/wedding">Services</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
@@ -39,7 +39,7 @@ function Footer() {
             </a>
           </p>
           <p>
-            📧 <a href="mailto:kirantalikoti08@email.com">Email Us</a>
+            📧 <a href="mailto:kirantalikoti08@email.com">Email Us (kirantalikoti08@email.com)</a>
           </p>
         </div>
 

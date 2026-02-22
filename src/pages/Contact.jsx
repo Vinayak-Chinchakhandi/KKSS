@@ -1,6 +1,52 @@
+import { useState } from "react";
 import Button from "../components/ui/Button";
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    message: ""
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.placeholder.includes("Name") ? "name" :
+       e.target.placeholder.includes("Phone") ? "phone" : "message"]: e.target.value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const { name, phone, message } = formData;
+
+    const whatsappMessage = `
+Hello KKSS,
+
+Name: ${name}
+Phone: ${phone}
+
+Message:
+${message}
+    `;
+
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+
+    // Using your existing WhatsApp number (DO NOT CHANGE)
+    window.open(
+      `https://wa.me/917483761587?text=${encodedMessage}`,
+      "_blank"
+    );
+
+    // Optional: clear form after sending
+    setFormData({
+      name: "",
+      phone: "",
+      message: ""
+    });
+  };
+
   return (
     <section className="section bg-section">
       <div className="container contact-wrapper">
@@ -18,7 +64,7 @@ function Contact() {
 
             <p>
               <strong>📞 Phone:</strong>{" "}
-              <a href="tel:+919986690087">+91 99866 90087</a>
+              <a href="tel:+919986690087">+91 9986690087</a>
             </p>
 
             <p>
@@ -45,10 +91,30 @@ function Contact() {
         <div className="contact-form card">
           <h2>Send a Message</h2>
 
-          <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="tel" placeholder="Your Phone Number" required />
-            <textarea rows="4" placeholder="Your Message" required></textarea>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="text"
+              placeholder="Your Name"
+              required
+              value={formData.name}
+              onChange={handleChange}
+            />
+
+            <input
+              type="tel"
+              placeholder="Your Phone Number"
+              required
+              value={formData.phone}
+              onChange={handleChange}
+            />
+
+            <textarea
+              rows="4"
+              placeholder="Your Message"
+              required
+              value={formData.message}
+              onChange={handleChange}
+            ></textarea>
 
             <Button type="submit" variant="primary">
               Send Message

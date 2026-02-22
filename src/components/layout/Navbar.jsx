@@ -16,7 +16,7 @@ function Navbar() {
 
         {/* Desktop Links */}
         <ul className="nav-links">
-          <li><Link to="/">Home</Link></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -39,9 +39,9 @@ function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="mobile-menu">
-          <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
-          <Link to="/services" onClick={() => setMenuOpen(false)}>Services</Link>
-          <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
+          <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
+          <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
           <a href="tel:+919986690087" className="btn-primary">
             9986690087
           </a>
