@@ -1,6 +1,28 @@
+# 🎉 Kala Kaleshwara Sounds & Shamiyana (KKSS)
+
+Premium event setup services in Gajendragada and surrounding areas.
+
+---
+
+## 🌐 Live Website
+
+👉 [Visit Kala Kaleshwara Sounds & Shamiyana](https://kkss-events.vercel.app/)  
+
+---
+
+## 📱 Scan QR Code
+
+![KKSS QR Code](public/qr-code.png)
+
+---
+
+## 🏗️ Project Structure
+
+```
 kkss-website/
 │
 ├── public/
+│   └── qr-code.png
 │
 ├── src/
 │
@@ -17,8 +39,7 @@ kkss-website/
 │   │   ├── haladi/
 │   │   ├── home-opening/
 │   │   └── political/
-│   │   
-│   │
+│
 │   ├── components/
 │   │   ├── layout/
 │   │   │   ├── Navbar.jsx
@@ -35,7 +56,7 @@ kkss-website/
 │   │   ├── Contact.jsx
 │   │   ├── Services.jsx
 │   │   └── services/
-│   │       └──ServiceDetails.jsx
+│   │       └── ServiceDetails.jsx
 │   │
 │   ├── styles/
 │   │   ├── global.css
@@ -51,3 +72,6 @@ kkss-website/
 ├── index.html
 ├── vite.config.js
 └── package.json
+```
+
+---
