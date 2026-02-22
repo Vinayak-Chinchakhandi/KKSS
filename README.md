@@ -22,6 +22,7 @@ Premium event setup services in Gajendragada and surrounding areas.
 kkss-website/
 │
 ├── public/
+│   ├── logo.webp
 │   └── qr-code.png
 │
 ├── src/
