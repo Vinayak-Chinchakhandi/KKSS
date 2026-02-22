@@ -438,3 +438,30 @@ a,
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== ENGLISH TITLE (Override) ===== */
+.service-title {
+  font-size: 16px;
+  font-weight: 600; /* slightly stronger than 500 */
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  transition: 0.3s ease;
+}
+
+/* ===== KANNADA TITLE ===== */
+.service-kannada {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent-rose); /* darker rose for better visibility */
+  letter-spacing: 0.4px;
+  transition: 0.3s ease;
+}
+
+/* Hover Effects (Soft Gold) */
+.service-card:hover .service-title {
+  color: var(--accent-gold); /* muted champagne gold */
+}
+
+.service-card:hover .service-kannada {
+  color: var(--accent-rose);
+}

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function ServiceCard({ title, image, link }) {
+function ServiceCard({ title, kannada, image, link }) {
   return (
     <Link to={link} className="service-card">
       <div className="service-image">
@@ -8,7 +8,8 @@ function ServiceCard({ title, image, link }) {
       </div>
 
       <div className="service-content">
-        <h3>{title}</h3>
+        <h3 className="service-title">{title}</h3>
+        <p className="service-kannada">{kannada}</p>
       </div>
     </Link>
   );

@@ -16,17 +16,17 @@ import politicalImg from "../assets/political/sample.webp";
 function Services() {
 
   const services = [
-    { title: "Wedding", image: weddingImg, link: "/services/wedding" },
-    { title: "Shamiyana", image: shamiyanaImg, link: "/services/shamiyana" },
-    { title: "Sound System", image: soundSystemImg, link: "/services/sound-system" },
-    { title: "Baby Shower", image: babyShowerImg, link: "/services/baby-shower" },
-    { title: "Birthday & Anniversary", image: birthdayImg, link: "/services/birthday-anniversary" },
-    { title: "Car Decoration", image: carDecorationImg, link: "/services/car-decoration" },
-    { title: "Catering", image: cateringImg, link: "/services/catering" },
-    { title: "Gathering", image: gatheringImg, link: "/services/gathering" },
-    { title: "Haladi", image: haladiImg, link: "/services/haladi" },
-    { title: "Home Opening", image: homeOpeningImg, link: "/services/home-opening" },
-    { title: "Political Events", image: politicalImg, link: "/services/political" },
+    { title: "Wedding", kannada: "(ಮದುವೆ)", image: weddingImg, link: "/services/wedding" },
+    { title: "Shamiyana", kannada: "(ಶಾಮಿಯಾನ)", image: shamiyanaImg, link: "/services/shamiyana" },
+    { title: "Sound System", kannada: "(ಸೌಂಡ್ ಸಿಸ್ಟಮ್)", image: soundSystemImg, link: "/services/sound-system" },
+    { title: "Baby Shower", kannada: "(ಸೀಮಂತ)", image: babyShowerImg, link: "/services/baby-shower" },
+    { title: "Birthday & Anniversary", kannada: "(ಹುಟ್ಟುಹಬ್ಬ & ವಾರ್ಷಿಕೋತ್ಸವ)", image: birthdayImg, link: "/services/birthday-anniversary" },
+    { title: "Car Decoration", kannada: "(ಕಾರು ಅಲಂಕಾರ)", image: carDecorationImg, link: "/services/car-decoration" },
+    { title: "Catering Materials", kannada: "(ಭೋಜನ ಸಾಮಗ್ರಿ ವ್ಯವಸ್ಥೆ)", image: cateringImg, link: "/services/catering" },
+    { title: "Gathering", kannada: "(ಸಭೆ / ಸಮಾರಂಭ)", image: gatheringImg, link: "/services/gathering" },
+    { title: "Haladi", kannada: "(ಹಳದಿ ಕಾರ್ಯಕ್ರಮ)", image: haladiImg, link: "/services/haladi" },
+    { title: "Home Opening", kannada: "(ಗೃಹ ಪ್ರವೇಶ)", image: homeOpeningImg, link: "/services/home-opening" },
+    { title: "Political Events", kannada: "(ರಾಜಕೀಯ ಕಾರ್ಯಕ್ರಮ)", image: politicalImg, link: "/services/political" },
   ];
 
   return (
@@ -42,6 +42,7 @@ function Services() {
             <ServiceCard
               key={index}
               title={service.title}
+              kannada={service.kannada}
               image={service.image}
               link={service.link}
             />
