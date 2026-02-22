@@ -9,7 +9,7 @@ kkss-website/
 │   │   ├── wedding/
 │   │   ├── shamiyana/
 │   │   ├── sound-system/
-│   │   ├── baby-shower/
+│   │   ├── naming-ceremony/
 │   │   ├── birthday-anniversary/
 │   │   ├── car-decoration/
 │   │   ├── catering/

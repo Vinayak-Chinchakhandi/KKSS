@@ -4,7 +4,7 @@ import ServiceCard from "../components/ui/ServiceCard";
 import weddingImg from "../assets/wedding/sample.webp";
 import shamiyanaImg from "../assets/shamiyana/sample.webp";
 import soundSystemImg from "../assets/sound-system/sample.webp";
-import babyShowerImg from "../assets/baby-shower/sample.webp";
+import namingCeremonyImg from "../assets/naming-ceremony/sample.webp";
 import birthdayImg from "../assets/birthday-anniversary/sample.webp";
 import carDecorationImg from "../assets/car-decoration/sample.webp";
 import cateringImg from "../assets/catering/sample.webp";
@@ -19,7 +19,7 @@ function Services() {
     { title: "Wedding", kannada: "(ಮದುವೆ)", image: weddingImg, link: "/services/wedding" },
     { title: "Shamiyana", kannada: "(ಶಾಮಿಯಾನ)", image: shamiyanaImg, link: "/services/shamiyana" },
     { title: "Sound System", kannada: "(ಸೌಂಡ್ ಸಿಸ್ಟಮ್)", image: soundSystemImg, link: "/services/sound-system" },
-    { title: "Baby Shower", kannada: "(ನಾಮಕರಣ)", image: babyShowerImg, link: "/services/baby-shower" },
+    { title: "Naming Ceremony", kannada: "(ನಾಮಕರಣ)", image: namingCeremonyImg, link: "/services/naming-ceremony" },
     { title: "Birthday & Anniversary", kannada: "(ಹುಟ್ಟುಹಬ್ಬ & ವಾರ್ಷಿಕೋತ್ಸವ)", image: birthdayImg, link: "/services/birthday-anniversary" },
     { title: "Car Decoration", kannada: "(ಕಾರು ಅಲಂಕಾರ)", image: carDecorationImg, link: "/services/car-decoration" },
     { title: "Catering Materials", kannada: "(ಭೋಜನ ಸಾಮಗ್ರಿ ವ್ಯವಸ್ಥೆ)", image: cateringImg, link: "/services/catering" },
