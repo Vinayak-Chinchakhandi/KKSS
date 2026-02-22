@@ -19,7 +19,7 @@ function Services() {
     { title: "Wedding", kannada: "(ಮದುವೆ)", image: weddingImg, link: "/services/wedding" },
     { title: "Shamiyana", kannada: "(ಶಾಮಿಯಾನ)", image: shamiyanaImg, link: "/services/shamiyana" },
     { title: "Sound System", kannada: "(ಸೌಂಡ್ ಸಿಸ್ಟಮ್)", image: soundSystemImg, link: "/services/sound-system" },
-    { title: "Baby Shower", kannada: "(ಸೀಮಂತ)", image: babyShowerImg, link: "/services/baby-shower" },
+    { title: "Baby Shower", kannada: "(ನಾಮಕರಣ)", image: babyShowerImg, link: "/services/baby-shower" },
     { title: "Birthday & Anniversary", kannada: "(ಹುಟ್ಟುಹಬ್ಬ & ವಾರ್ಷಿಕೋತ್ಸವ)", image: birthdayImg, link: "/services/birthday-anniversary" },
     { title: "Car Decoration", kannada: "(ಕಾರು ಅಲಂಕಾರ)", image: carDecorationImg, link: "/services/car-decoration" },
     { title: "Catering Materials", kannada: "(ಭೋಜನ ಸಾಮಗ್ರಿ ವ್ಯವಸ್ಥೆ)", image: cateringImg, link: "/services/catering" },
