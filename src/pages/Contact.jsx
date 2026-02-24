@@ -12,7 +12,7 @@ function Contact() {
     setFormData({
       ...formData,
       [e.target.placeholder.includes("Name") ? "name" :
-       e.target.placeholder.includes("Phone") ? "phone" : "message"]: e.target.value
+        e.target.placeholder.includes("Phone") ? "phone" : "message"]: e.target.value
     });
   };
 
@@ -63,18 +63,20 @@ ${message}
             <p><strong>📍 Location:</strong> Gajendragada, Gadag, Karnataka</p>
 
             <p>
-              <strong>📞 Phone:</strong>{" "}
-              <a href="tel:+919986690087">+91 9986690087</a>
+              <strong>📞 Phone (Iranna Talikoti):</strong>{" "}
+              <a href="tel:+919986690087">
+                +91 9986690087
+              </a>
             </p>
 
             <p>
-              <strong>💬 WhatsApp:</strong>{" "}
+              <strong>💬 WhatsApp (Shridhar Talikoti):</strong>{" "}
               <a
                 href="https://wa.me/917483761587"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                7483761587 
+                +91 7483761587
               </a>
             </p>
 

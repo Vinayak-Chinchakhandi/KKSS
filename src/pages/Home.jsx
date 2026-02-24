@@ -17,6 +17,10 @@ function Home() {
               Sounds & Shamiyana
             </h1>
 
+            <p className="pro-name">
+              Pro: Iranna Talikoti & Sons
+            </p>
+
             <p>
               Divine Sound. Grand Celebrations.
               Premium event setup services in Gajendragada and surrounding areas.
