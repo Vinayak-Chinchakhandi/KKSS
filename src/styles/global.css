@@ -467,10 +467,8 @@ a,
 }
 
 .pro-name {
-  font-size: 24px;              /* Slightly bigger */
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
   color: var(--accent-gold-deep);
-  margin-top: 8px;              /* Small gap from title */
-  margin-bottom: 10px;          /* Reduced gap before tagline */
-  letter-spacing: 0.5px;
+  margin: 4px 0 8px 0;   /* tighter spacing */
 }
