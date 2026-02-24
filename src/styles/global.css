@@ -467,9 +467,10 @@ a,
 }
 
 .pro-name {
-  font-size: 22px;        /* Increased */
-  font-weight: 600;       /* Slightly stronger */
+  font-size: 24px;              /* Slightly bigger */
+  font-weight: 600;
   color: var(--accent-gold-deep);
-  margin-bottom: 18px;
+  margin-top: 8px;              /* Small gap from title */
+  margin-bottom: 10px;          /* Reduced gap before tagline */
   letter-spacing: 0.5px;
 }
