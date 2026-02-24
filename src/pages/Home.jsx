@@ -18,7 +18,7 @@ function Home() {
             </h1>
 
             <p className="pro-name">
-              Pro: Iranna Talikoti & Sons
+              Proprietor: Iranna Talikoti & Sons
             </p>
 
             <p>
