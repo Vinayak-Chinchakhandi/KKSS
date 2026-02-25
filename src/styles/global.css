@@ -353,6 +353,12 @@ a,
   margin-bottom: 60px;
 }
 
+.map-frame {
+  border: 2px solid var(--accent-gold-deep);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
 /* ===== RESPONSIVE CONTACT ===== */
 @media (max-width: 900px) {
   .contact-wrapper {
